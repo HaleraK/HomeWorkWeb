@@ -1,0 +1,29 @@
+
+
+.boldText {
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.italicText {
+    font-family: verdana;
+    font-style: italic;
+}
+
+p {
+    font-size: 25px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+img {
+    float: right;
+    filter: grayscale(100%);
+}
+
+.tittle {
+    opacity: 0.1;
+    filter: grayscale(100%);
+}
