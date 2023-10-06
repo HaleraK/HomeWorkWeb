@@ -1,0 +1,57 @@
+    <!DOCTYPE html>  
+    <html>  
+    <head>  
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+    <script>   
+    
+
+        function animateT() {
+            $("div").animate({
+                    left: '300px',
+                    opacity: '0.5',
+                    height: '150px',
+                    width: '150px'
+               
+            });
+        }
+
+        function animateT2() {
+            $("div").animate({
+                top: '300px',
+                opacity: '0.5',
+                height: '150px',
+                width: '150px'
+
+            });
+        }
+        function animateT3() {
+            $("div").animate({
+                left: '300px',
+                top: '300px',
+                opacity: '0.5',
+                height: '150px',
+                width: '150px'
+
+            });
+        }
+
+        function resetAnimation() {
+            $("div").animate({
+                left: '50px',
+                top: '50px',
+                    opacity: '1',
+                    height: '100px',
+                    width: '100px'
+                
+            });
+        }
+    </script>   
+    </head>  
+    <body>
+        <button onclick="animateT()">Start Animation Right</button> 
+        <button onclick="animateT2()">Start Bottom</button> 
+        <button onclick="animateT3()">Start Diagonale</button> 
+        <button onclick="resetAnimation()">Reset</button>
+        <div style="background:#125f21;height:100px;width:100px;left:50px;top:50px;position:absolute;" id="divchik"></div>
+    </body>  
+    </html>  
